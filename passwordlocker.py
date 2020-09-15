@@ -1,3 +1,4 @@
+#! /usr/bin/python
 # pw.py - An insecure password locker program.
 import sys, pyperclip
 
