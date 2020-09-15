@@ -17,7 +17,7 @@ password = PASSWORDS.get(account, False)
 
 if password:
 	pyperclip.copy(PASSWORDS[account])
-	print('Password for ' + account + ' copied to clipboard.')
+	print(f'Password for {account} copied to clipboard.')
 else:
 	print(f"There is no account named {account}")
 
